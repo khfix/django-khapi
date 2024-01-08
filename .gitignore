@@ -1,18 +1,38 @@
+
 *.pyc
+
+
 .venv*
+
+
 .vscode
+
+
 .coverage
+/coverage.xml
+
+
 .rst
 .cfg
 .in
+
+
 htmlcov
-/coverage.xml
+
 
 dist
+
+
 test.py
 
+
 docs/site
-khapi.egg-info/
+
+khapi.egg-info
+django-khapi
+
 
 .DS_Store
+
+
 .idea
