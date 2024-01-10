@@ -265,13 +265,13 @@ class APICore(View, Group):
             temp_path = os.path.join("media/cache", image_name)
             model_images_path = os.path.join("media", model)
             try:
-                from khapi_image.core import find_best_similar_photo
+                from khapitools.core import find_best_similar_photo
 
                 result_image_path = find_best_similar_photo(
                     temp_path, model_images_path
                 )
             except:
-                return HttpResponseForbidden("install khapiImage package")
+                return HttpResponseForbidden("install khapitools package")
             fs.delete(temp_path)
             if result_image_path:
                 image_name = os.path.basename(result_image_path)

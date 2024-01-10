@@ -5,7 +5,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
 
 setup(
     name="khapi",
-    version="0.3.0",
+    version="0.6.0",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[

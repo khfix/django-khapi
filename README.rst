@@ -1,4 +1,4 @@
-.. image:: images/logo.png
+.. image:: https://github.com/khfix/django-khapi/raw/master/images/logo.png
    :alt: Project Logo
 
 Django KHAPI
@@ -100,8 +100,14 @@ To create an API endpoint that returns a list of all your model data by field va
 Fastest GET Response Ever
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/fast.png
+.. image:: https://github.com/khfix/django-khapi/raw/master/images/fast.png
    :alt: Postman Image Test
+
+
+Fastest GET Response Ever
+~~~~~~~~~~~~~~~~~~~~~~~~~
+.. image:: https://github.com/khfix/django-khapi/raw/master/images/apiadmin.png
+   :alt: API Admin Image
 
 Built-in API Classes
 ~~~~~~~~~~~~~~~~~~~~
@@ -183,18 +189,18 @@ UpdateAPI
 ImageSearchAPI
 ^^^^^^^^^^^^^^
 
-Visit `Khapi_Image <https://github.com/khfix/Khapi_Image>`_ for installation.
+Visit `khapitools <https://github.com/khfix/khapitools>`_ for installation.
 
 - **Description:** Utilizes AI-based image search functionality.
 - **Usage:**
 
   .. code-block:: python
 
-     from khapiImage,views import ImageSearchAPI
+     from khapitools.views import ImageSearchAPI
      class YourImageSearchAPI(ImageSearchAPI):
          model = YourModel
 
-.. image:: images/postman_image_upload.png
+.. image:: https://github.com/khfix/django-khapi/raw/master/images/postman_image_upload.png
    :alt: Postman Image Upload
 
 License

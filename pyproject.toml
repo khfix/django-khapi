@@ -1,11 +1,9 @@
 [project]
 name = "khapi"
-version = "0.3.0"
-authors = [
-  { name="khfix", email="hamza.alkhatib.se@gmail.com" },
-]
+version = "0.6.0"
+authors = [{ name="khfix", email="hamza.alkhatib.se@gmail.com" }]
 description = "A powerful Django app for creating APIs."
-readme = "README.md"
+readme = "README.rst"
 requires-python = ">=3.6"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -16,3 +14,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/khfix/django-khapi"
 Issues = "https://github.com/khfix/django-khapi/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

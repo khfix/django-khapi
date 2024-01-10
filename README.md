@@ -167,11 +167,12 @@ KhAPI comes with several built-in API classes that make it easy to create APIs f
 
 ## ImageSearchAPI
 
-vist [Khapi_Image](https://github.com/khfix/Khapi_Image) to installation.
+vist [khapitools](https://github.com/khfix/khapitools) to installation.
 - **Description:** Utilizes AI-based image search functionality.
 - **Usage:**
   ```python
-  from khapiImage,views import ImageSearchAPI
+  from khapitools.views import ImageSearchAPI
+  from .models import YourModel
   class YourImageSearchAPI(ImageSearchAPI):
       model = YourModel
   
