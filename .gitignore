@@ -36,3 +36,5 @@ django-khapi
 
 
 .idea
+
+migrations/
